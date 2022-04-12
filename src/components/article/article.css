@@ -1,0 +1,9 @@
+.normal__text {
+  color: rgba(252, 252, 252, 0.628);
+  text-align: center;
+}
+
+#last__line {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}

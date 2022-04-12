@@ -1,0 +1,79 @@
+html {
+  background-color: black;
+}
+
+* {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  font-style: var(--font-style);
+  scroll-behavior: smooth;
+  letter-spacing: 3px;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.home {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.moonsite {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.transfersite {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.moontwosite {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bgIntro,
+.bgMoon,
+.bgTransfer,
+.bgMoonTwo {
+  background: url(assets/moon.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100%;
+  min-width: 500px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bgMoon {
+  background: url(assets/rocket.jpg) no-repeat center center fixed;
+}
+
+.bgTransfer {
+  background: url(assets/transfer.png) no-repeat center center fixed;
+}
+
+.bgMoonTwo {
+  background: url(assets/hire.jpg) no-repeat center center fixed;
+}
